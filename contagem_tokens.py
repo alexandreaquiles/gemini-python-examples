@@ -24,3 +24,21 @@ max_input, max_output, contagem = conta_tokens(prompt, modelo)
 print(f"{max_input}") # 1048576
 print(f"{max_output}") # 8192
 print(f"Quantos tokens temos para o modelo {modelo}: ", contagem)
+
+modelo = "gemini-1.5-flash"
+max_input, max_output, contagem = conta_tokens(prompt, modelo)
+print(f"{max_input}") # 1048576
+print(f"{max_output}") # 8192
+print(f"Quantos tokens temos para o modelo {modelo}: ", contagem) # 8
+
+modelo = "gemini-1.5-pro"
+max_input, max_output, contagem = conta_tokens(prompt, modelo)
+print(f"{max_input}") # 2097152
+print(f"{max_output}") # 8192
+print(f"Quantos tokens temos para o modelo {modelo}: ", contagem) # 8
+
+modelo = "gemini-1.0-pro"
+max_input, max_output, contagem = conta_tokens(prompt, modelo)
+print(f"{max_input}") # 30720
+print(f"{max_output}") # 2048
+print(f"Quantos tokens temos para o modelo {modelo}: ", contagem) # 8
