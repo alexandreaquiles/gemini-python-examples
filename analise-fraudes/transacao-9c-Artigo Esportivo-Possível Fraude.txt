@@ -1,0 +1,1 @@
+{"recomendacao": "Acionar setor Anti-Fraude", "classificacao_fraude": "Fraude Potencial - Valor Atípico"}
